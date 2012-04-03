@@ -1,0 +1,179 @@
+/* Reset settings */
+
+* {
+padding: 0;
+margin: 0;
+}
+
+html {
+	overflow-y:scroll;
+}
+
+img, fieldset {
+	border: none;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+/* body and wrapper */
+
+body {
+	font: 62.5%/1.5 arial, helvetica, sans-serif;
+	background: #000;
+	color: #000;
+}
+
+#wrapper {
+	background: #FBFBFB;
+	margin: 0 auto;
+	width: 27em;
+	padding: 1em 2.5em;
+}
+
+/* header and headings */
+
+header {
+	background: url('../images/contour.png') no-repeat;
+	height: 7em;
+}
+
+h1 {
+	margin-left: 5.25em;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: #333333;
+	font-size: 2.4em;
+	font-family: 'Patua One', cursive;
+}
+
+h2 {
+	padding: 0.1em 0 0.3em 0;
+	font: 2.5em/1.5 'Homenaje', sans-serif;
+}
+
+h3 {
+	margin-bottom:0.5em;
+	color:#4d4d4d;
+}
+
+hgroup h3 {
+	font-size:100%;
+	font-weight: bold;
+	color:#000;
+}
+
+span {
+	margin-top: 1.5em;
+	display:block;
+}
+
+/* Navigation menu */
+nav {
+	font-size: 1.6em;
+	color: #444444;
+	margin: 10px 0;
+	background: #D9D9D9;
+	display: block;
+	padding: 0;
+}
+nav ul {
+	list-style: none;
+	overflow: hidden;	
+}
+
+nav ul:first-child {
+	padding-left: 7.5px;
+}
+
+nav li {
+	float: left;
+	line-height: 30px;
+}
+nav a {
+	text-decoration: none;
+	float: left;
+	padding: 0 7.5px;
+}
+nav a:link, a:visited {
+	color: #444444;
+	background: #D9D9D9;
+}
+
+nav a:hover, a:active {
+	background: #666666;
+	color: #f0f0f0;
+}
+
+/* Styles for main content */
+
+#mainContent {
+	font-size: 1.3em;
+	background: #f0f0f0;
+	padding: 10px;
+}
+
+#mainContent img {
+	margin:0;
+	padding:0;
+}
+
+#mainContent p {
+	margin-bottom: 1em;
+}
+
+p.italic {
+	font-style: italic;
+}
+
+#mainContent .caption {
+	font-size: 0.9em;
+	background: #d7d9d8;
+	display: block;
+	padding: 0.5em;
+	margin: -0.5em 0 1em 0;
+}
+
+.indent {
+	list-style-position: inside;
+}
+
+/* Forms for contest */
+form {
+	margin-bottom: 0.5em;
+}
+label, input {
+	display: block;
+}
+
+label {
+	margin-top: 1em;
+}
+
+#name {
+	margin: 0;
+}
+
+input {
+	height: 2.5em;
+	width: 100%;
+}
+
+input[type="submit"] {
+	font-size: 1.1em;
+	margin-top: 1em;
+	height: 2.5em;
+	width: 35%;
+}
+input[type="submit"]:hover {
+	background:#666666;
+	color:#f0f0f0;
+	cursor: pointer;
+}
+
+footer {
+	text-align:center;
+	font: 1em/1.5 tahoma, sans-serif;
+	margin-top: 0.5em;
+}
