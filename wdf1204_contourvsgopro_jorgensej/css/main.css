@@ -1,0 +1,271 @@
+/********** Reset settings **********/
+
+* {
+padding: 0;
+margin: 0;
+}
+
+html {
+	overflow-y:scroll;
+}
+
+img, fieldset {
+	border: none;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+/********** Structure **********/
+
+body {
+	font: 62.5%/1.5 arial, helvetica, sans-serif;
+	background: #E1E5E4;
+	color: #000;
+}
+
+#wrapper {
+	background: #E1E5E4;
+	margin: 0 auto;
+	width: 960px;
+	padding: 10px 25px;
+}
+
+.clear {
+	clear:both;
+}
+
+/********** Headings and page navigation (back to top) **********/
+
+header {
+	background: #D3D5C0;
+	padding: 0 0 30px 0;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+#dark_line {
+	border-top: 1px solid #B2B49F;
+}
+
+#wrapperH {
+	margin: 0 auto;
+	width:960px;
+	padding: 10px 25px;
+}
+
+h1 {
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: #36434E;
+	font: 4em/1.5 'Patua One', cursive;
+	float: left;
+	margin-left: 40px;
+	-ms-text-shadow: 0 1px 0 #fff, 0 -1px 0 #000;
+	-o-text-shadow: 0 1px 0 #fff, 0 -1px 0 #000;
+	-webkit-text-shadow: 0 1px 0 #fff, 0 -1px 0 #000;
+	-moz-text-shadow: 0 1px 0 #fff, 0 -1px 0 #000;
+	text-shadow: 0 1px 0 #fff, 0 -1px 0 #000;
+}
+
+hr {
+	clear: left;
+	color: #000;
+	position: absolute;
+	top: 32px;
+	margin: 30px 0 0 40px;
+	width: 40%;
+}
+
+#sub_header {
+	clear:left;
+	margin: 10px 0 0 40px;
+	padding: 0;
+	font: italic 2em/0.8 helvetica, arial, sans-serif;
+}
+
+h2 {
+	padding: 0.1em 0 0.3em 0;
+	font: 2.5em/1.5 'Homenaje', sans-serif;
+}
+
+h3 {
+	margin-bottom:0.5em;
+	color:#4d4d4d;
+}
+
+hgroup h3 {
+	font-size:100%;
+	font-weight: bold;
+	color:#000;
+}
+
+span {
+	margin-top: 1.5em;
+	display:block;
+}
+
+/********** Navigation menu **********/
+
+nav {
+	font-size: 1.6em;
+	color: #D3D5C0;
+	display: block;
+	position: absolute;
+	top: 25px;
+	left: 808px;
+}
+nav ul {
+	list-style: none;
+	overflow: hidden;
+}
+
+nav ul:first-child {
+	padding-left: 7.5px;
+}
+
+nav li {
+	float: left;
+	line-height: 30px;
+	padding: 4px 0;
+	background: #232220;
+}
+
+nav li:first-child, nav li:last-child {
+	background: none;
+	padding: 0;
+}
+
+nav a {
+	text-decoration: none;
+	float: left;
+	padding: 0 7.5px;
+}
+nav a:link, a:visited {
+	color: #D3D5C0;
+	background: #232220;
+}
+
+nav a:hover, a:active {
+	background: #a0a0a0;
+	color: #f0f0f0;
+}
+
+/********** Styles for main content **********/
+
+#mainContent {
+	font-size: 1.3em;
+	padding: 10px 30px;
+	clear: left;
+}
+
+#mainContent img {
+	margin:0;
+	padding:0;
+}
+
+#mainContent p {
+	margin-bottom: 1em;
+}
+
+p.italic {
+	font-style: italic;
+}
+
+span a:link, span a:visited {
+	color: #3365B8;
+}
+span a:hover, span a:active {
+	color:#E48A25;
+}
+
+#mainContent .caption {
+	font-size: 0.9em;
+	background: #d7d9d8;
+	display: block;
+	padding: 0.5em;
+	margin: -0.5em 0 1em 0;
+}
+
+.indent {
+	list-style-position: inside;
+}
+
+#product {
+	float:left;
+	width: 625px;
+	padding: 10px;
+}
+
+#contour {
+	float:left;
+	width: 50%;
+}
+
+#gopro {
+	float: left;
+	width: 50%;
+}
+
+.title_cam {
+	font-size: 1.5em;
+	color: #000;
+}
+
+#sidebar {
+	float:right;
+	width: 200px;
+	padding: 10px;
+}
+
+#contest {
+	background: rgba(212,216,217, 0.9);
+	padding: 0 5px 5px;
+}
+
+/********** Contest form **********/
+
+form {
+	margin-bottom: 0.5em;
+}
+label, input {
+	display: block;
+}
+
+label {
+	margin-top: 1em;
+}
+
+#name {
+	margin: 0;
+}
+
+input {
+	height: 2em;
+	width: 97%;
+}
+
+input[type="submit"] {
+	font-size: 1.1em;
+	margin-top: 1em;
+	height: 2em;
+	width: 35%;
+	border: 1px solid #999;
+}
+
+input[type="submit"]:hover {
+	background:#E48A25;
+	color:#f0f0f0;
+	cursor: pointer;
+	border: none;
+	border: 1px solid #999;
+}
+
+/********** Footer **********/
+
+footer {
+	clear: both;
+	text-align:center;
+	font: 1em/1.5 tahoma, sans-serif;
+	padding-top: 20px;
+}
