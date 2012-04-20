@@ -39,7 +39,7 @@
 					<div><img src="images/cameras.png" alt="Gopro vs. Contour" /></div>
 
 					<article id="contour_camera">
-					<h3 class="camera_model">Contour</h3>
+					<h3>Contour</h3>
 					<p>Contour, formerly known as VholdR, is the market leader in hands-free video cameras and adventure storytelling tools that enable modern day explorers to tell their stories of action, adventure and travel through video. Leading the way in making action video easy to shoot and share, Contour is dedicated to creating simple tools that enable hands-free capture and effortless sharing of video online with the world.</p>
 
 					<table>
@@ -53,7 +53,7 @@
 					</article><!-- Article for Contour headcam -->
 
 					<article id="gopro_camera">
-					<h3 class="camera_model">GoPro Hero</h3>
+					<h3>GoPro Hero</h3>
 					<p>GoPro produces arguably the most versatile cameras in the world, the famous HD HERO® line of wearable and gear-mountable cameras and accessories. GoPro’s products are sold through leading specialty retailers in more than 50 countries.</p>
 
 					<table>
@@ -99,39 +99,50 @@
 						<p>To win your very own Contour 1080HD, fill in the information below and press submit. A winner is announced every month.</p>
 
 						<form>
-						<div>
-							<label for="name">Name</label>
-							<input type="text" placeholder="First Name" autofocus="autofocus" required="required" />
-							<input type="text" placeholder="Last Name" autofocus="autofocus" required="required" />
-						</div><!-- First & last name -->
+							<div>
+								<label class="important">Name <span>*</span></label>
+								<input type="text" placeholder="First Name" autofocus="autofocus" required="required" />
+								<input type="text" placeholder="Last Name" autofocus="autofocus" required="required" />
+							</div><!-- First & last name -->
 
-						<div>
-							<label for="gender">Gender</label>
-							<select name="gender">
-								<option value="male">Male</option>
-								<option value="female">Female</option>
-							</select>
-						</div><!-- Gender -->
+							<div>
+								<label for="gender">Gender</label>
+								<select name="gender" id="gender">
+									<option value="male">Male</option>
+									<option value="female">Female</option>
+								</select>
+							</div><!-- Gender -->
 
-						<div id="input_radio_text">
-							<label for="camera">Which do you prefer?</label>
-							<input type="radio" name="radio" value="Countour" /><span>Contour</span>
-							<input type="radio" name="radio" value="GoPro" /><span>GoPro</span>
-						</div><!-- Camera preference -->
+							<div id="input_radio_cameras">
+								<label>Which do you prefer?</label>
+								<span>
+									<input type="radio" name="radio" value="Countour" id="contour" />
+									<label for="contour">Contour</label>
+								</span>
 
-						<div>
-							<label for="email">Email</label>
-							<input type="email" name="email" placeholder="johndoe@example.com" autofocus="autofocus" required="required" />
-						</div><!-- Email -->
+								<span>
+									<input type="radio" name="radio" value="GoPro" id="gopro" />
+									<label for="gopro">GoPro</label>
+								</span>
+							</div><!-- Camera preference -->
 
-						<div>
-							<label for="user_info">What would you film?</label>
-  							<textarea cols="20" rows="5"></textarea>
-  						</div>
+							<div>
+								<label for="email" class="important">Email <span>*</span></label>
+								<input type="email" name="email" placeholder="johndoe@example.com" autofocus="autofocus" required="required" id="email" />
+							</div><!-- Email -->
 
-						<div>
-						   	<input type="submit" value="Submit" />
-						</div>
+							<div>
+								<label for="user_info">What would you film?</label>
+	  							<textarea cols="20" rows="5" id="user_info"></textarea>
+	  						</div><!-- What would the user film -->
+
+	  						<div>
+	  							<input type="checkbox" checked="checked" name="checkbox" value="first_option" id="newsletter" /><label for="newsletter">Subscribe to Newsletter</label>
+	  						</div>
+
+							<div>
+							   	<input type="submit" value="Submit" />
+							</div><!-- Submit button -->
 				       	</form>
 		        	</section>
         		</div><!-- User Contest -->
