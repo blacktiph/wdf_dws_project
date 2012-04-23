@@ -1,0 +1,376 @@
+/********** Reset settings **********/
+
+* {
+padding: 0;
+margin: 0;
+}
+
+html {
+	overflow-y:scroll;
+}
+
+img, fieldset {
+	border: none;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+/********** Structure **********/
+
+body {
+	font: 62.5%/1.5 arial, helvetica, sans-serif;
+	background: #E1E5E4;
+	color: #000;
+}
+
+#wrapper {
+	background: #E1E5E4;
+	margin: 0 auto;
+	width: 960px;
+	padding: 10px 25px;
+}
+
+/********** Headings **********/
+
+h2 {
+	font: 2.5em/1.5 'Homenaje', sans-serif;
+	margin-bottom: 5px;
+	color: #242220;
+}
+
+h3 {
+	margin-bottom: 5px;
+	color:#36434E;
+	font: 2em/1.5 'Homenaje', sans-serif;
+}
+
+hgroup h3 {
+	font-size:100%;
+	font-weight: bold;
+	color:#000;
+}
+
+/********** Header and page navigation (back to top) **********/
+
+header {
+	background: #D3D5C0;
+	padding: 0;
+	border-bottom: 1px solid #f0f0f0;
+	line-height: 0;
+}
+
+header p {
+	clear: left;
+}
+
+#dark_line {
+	border-top: 1px solid #B2B49F;
+}
+
+
+#banner_wrapper {
+	margin: 0 auto;
+	width:960px;
+	padding: 10px 25px;
+}
+
+#container {
+	float:left;
+	width: 52%;
+}
+
+h1 {
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: #36434E;
+	font: 4em/1.5 'Patua One', cursive;
+	margin-left: 40px;
+	-ms-text-shadow: 0 1px 0 #f8f9f2, 0 -1px 0 #000;
+	-o-text-shadow: 0 1px 0 #f8f9f2, 0 -1px 0 #000;
+	-webkit-text-shadow: 0 1px 0 #f8f9f2, 0 -1px 0 #000;
+	-moz-text-shadow: 0 1px 0 #f8f9f2, 0 -1px 0 #000;
+	text-shadow: 0 1px 0 #f8f9f2, 0 -1px 0 #000;
+	border-bottom: 1px solid #232220;
+}
+
+#sub_header {
+	margin: 10px 0 0 40px;
+	font: italic 2em/0.8 helvetica, arial, sans-serif;
+}
+
+/* navigation menu */
+
+nav {
+	font-size: 1.4em;
+	color: #D3D5C0;
+	display: block;
+	float:left;
+	margin-top:22px;
+}
+
+nav ul {
+	list-style: none;
+	overflow: hidden;
+}
+
+nav li {
+	float: left;
+}
+
+nav li:first-child, nav li:last-child {
+	background: none;
+	padding: 0;
+}
+
+nav a {
+	text-decoration: none;
+	float: left;
+	padding: 0 8px;
+	line-height: 39px;
+	height: 39px;
+}
+
+nav a:link, a:visited {
+	color: #D3D5C0;
+	background: #232220;
+}
+
+nav a:hover, a:active {
+	background: #8A7743;
+	color: #f0f0f0;
+
+}
+
+/* Back to top link */
+span a:link, span a:visited {color: #35424D}
+span a:hover, span a:active {color:#E48A25}
+
+/********** Styles for main content (product review) **********/
+
+#mainContent {
+	font-size: 1.3em;
+	padding: 10px 30px;
+	clear: left;
+}
+
+#mainContent img {
+	margin:0;
+	padding:0;
+}
+
+#mainContent p {
+	margin-bottom: 1em;
+}
+
+p.italic {
+	font-style: italic;
+}
+
+#mainContent .caption {
+	font-size: 0.9em;
+	background: #d7d9d8;
+	display: block;
+	padding: 0.5em;
+	margin: -0.5em 0 1em 0;
+}
+
+#product_review {
+	float:left;
+	width: 625px;
+	padding: 10px;
+}
+
+#contour_camera, #gopro_camera {
+	width: 45%;
+	margin-top: 15px;
+}
+
+#contour_camera ol, #gopro_camera ol {
+	list-style-position: inside;
+}
+
+#contour_camera {
+	float:left;
+}
+
+#gopro_camera {
+	float: right;
+}
+
+.cons_spacing_top {
+	margin-top: 10px;
+	display: block;
+}
+
+/* Table for pros/cons */
+
+table {
+	width:100%;
+	border: 2px solid #9fa9a7;
+	background: #eeeeee;
+	color: #242220;
+	padding: 2px;
+	margin: 10px 0;
+	border-radius: 10px;
+	border-collapse:collapse;
+}
+
+th {
+	width: 40%;
+	font-size: 1.2em;
+	line-height: 30px;
+	text-align: left;
+	padding-left: 10px;
+}
+
+td {
+	border: 1px solid #9fa9a7;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+
+/********** Image Gallery **********/
+
+#gallery_wrapper {
+	clear: both;
+	padding-top: 10px;
+}
+
+#gallery_wrapper h2 {
+	margin-bottom: 5px;
+}
+
+#gallery_wrapper ul {
+	list-style:none;
+	overflow: hidden;
+}
+
+#gallery_wrapper li {
+    float: left;
+    margin: 0 5px 0 0;
+    width: 150px;
+}
+
+#gallery_wrapper li img {
+	opacity:1.0;
+}
+
+#gallery_wrapper li img:hover {
+	opacity:0.4;
+}
+ 	
+/********** Sidebar **********/
+
+#sidebar {
+	float:right;
+	width: 200px;
+	padding: 10px;
+}
+
+#about_us {
+	margin-bottom: 20px; /* Spacing between "About Us" and "Contest" */
+}
+
+#contest_box {
+	background: rgba(36,34,32, 0.9);
+	color: #cccccc;
+	padding: 0 10px 10px;
+	margin-top: 5px;
+	box-shadow: 2px 2px 5px #adb2b5;
+}
+
+#contest_box h2{
+	color: #ffffff;
+}
+
+/********** Form **********/
+
+form div {
+	margin-bottom: 15px;
+}
+
+form div:last-child {
+	margin-bottom: 0;
+}
+
+/* Important star */
+.important span {
+	color:#e10a28; /* red */
+	font-size: 1.2em;
+}
+
+input {
+	height: 20px;
+	margin-bottom:5px;
+	background: #eeeeee;
+	border: 1px solid #a49f96;
+	border-top: 1px solid #cccccc;
+	padding: 3px 0 3px 5px;
+}
+
+textarea {
+	background: #eeeeee;
+	border: 1px solid #a49f96;
+	border-top: 1px solid #cccccc;
+	padding-left: 5px;
+}
+
+input[type="text"], input[type="email"], textarea {
+	width: 95%;
+	display: block;
+}
+
+div#input_radio_cameras label:first-child {
+	margin-bottom: 5px;
+	display: block;
+}
+
+#input_radio_cameras span {
+	display: block;
+}
+
+input[type="radio"] {
+	height: 14px;
+	display: inline;
+	margin:0;
+}
+
+input[type="checkbox"] {
+	margin: 0 5px 0 0;
+	padding: 0;
+	vertical-align: bottom;
+}
+
+input[type="submit"] {
+	font-size: 1.1em;
+	padding: 0;
+	height: 30px;
+	width: 40%;
+	border: 1px solid #999;
+	border-radius: 5px;
+	line-height: 30px;
+	background: linear-gradient(bottom, rgb(178,179,163) 49%, rgb(211,213,192) 75%);
+	background: -o-linear-gradient(bottom, rgb(178,179,163) 49%, rgb(211,213,192) 75%);
+	background: -moz-linear-gradient(bottom, rgb(178,179,163) 49%, rgb(211,213,192) 75%);
+	background: -webkit-linear-gradient(bottom, rgb(178,179,163) 49%, rgb(211,213,192) 75%);
+	background: -ms-linear-gradient(bottom, rgb(178,179,163) 49%, rgb(211,213,192) 75%);
+}
+
+input[type="submit"]:hover {
+	background:#E48A25;
+	color:#f0f0f0;
+	cursor: pointer;
+	border: none;
+	border: 1px solid #999;
+}
+
+/********** Footer **********/
+
+footer {
+	clear: both;
+	text-align:center;
+	font: 1em/1.5 tahoma, sans-serif;
+	padding-top: 20px;
+}

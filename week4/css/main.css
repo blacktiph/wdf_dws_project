@@ -1,0 +1,335 @@
+/*----- Reset -----*/
+
+img, fieldset {
+	border: none;
+}
+
+h1, body {
+	padding: 0;
+	margin: 0;
+}
+
+/*----- Structure -----*/
+
+body {
+	font: 62.5%/1.5 'Ubuntu', sans-serif; /* font-size reset */
+	background: #607366 url(../images/bg.jpg) repeat;
+	color: #30373B;
+	width: 100%;
+}
+
+#wrapper {
+	background-color: #f0eadb;
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+	font-size: 1.4em;
+}
+
+header {
+	background: #3c3b39;
+	-moz-box-shadow: 0 0.00520833333% 0.00520833333% #000; /* 5 / 960 */
+	-ms-box-shadow: 0 0.00520833333% 0.00520833333% #000; /* 5 / 960 */
+	-webkit-box-shadow: 0 0.00520833333% 0.00520833333% #000; /* 5 / 960 */
+	-o-box-shadow: 0 0.00520833333% 0.00520833333% #000; /* 5 / 960 */
+	height: 0.0989583333%; /* 95 / 960 */
+	overflow: hidden;
+}
+
+ header p {
+ 	clear: left;
+ }
+
+#logo {
+	background: url(../images/logo.png) no-repeat;
+	margin: 0.0104166667% 0 0 0.0104166667%; /* 10 / 960 */
+	display: block;
+	height: 0.0802083333%; /* 77 / 960 */
+	width: 0.275%; /* 264 / 960 */
+	text-indent: -104.165625%; /* -99999 / 960 */
+}
+
+/*----- Begin Main Navigation -----*/
+
+#topnav ul li {
+	float: right;
+	height: 75px;
+	list-style: none;
+	margin: -70px 20px 0 0;
+}
+
+#topnav li a {
+	font-size: 2em;
+	color: #c86349;
+	text-decoration: none;
+	padding: 35px 5px 34px 5px;
+}
+
+#topnav li a:hover {
+	color: #fdf8ff;
+	background: #4C4B49;
+	padding: 35px 5px 34px 5px;
+} 
+/*----- End Main Navigation -----*/
+
+/*----- Aligning Color Chooser -----*/
+.black-plum {
+	margin-top: 5px;
+}
+
+.black-plum, .orange-navy {
+	float: left;
+	width: 93px;
+}
+
+.on-dot, .bp-dot {
+	margin-bottom: -5px;
+	padding-left: 20px;
+}
+
+#choosecolor {
+	margin-top: -10px;
+}
+
+#dots {
+	margin-left: -20px;
+}
+/*----- End Color Chooser -----*/
+
+/*----- Begin 3 Column Layout -----*/
+#leftcol, #midcol, #rightcol {
+	padding-top: 20px;
+	float: left;
+}
+#leftcol {
+	width: 350px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#midcol {
+	width: 290px;
+	padding-right: 20px;
+	height: 475px;
+	margin-top: -23px;
+}
+
+#rightcol {
+	width: 260px;
+	padding-left: 20px;
+  /*margin-top: -40px;*/
+}
+/*----- End 3 Column Layout -----*/
+
+/*----- Begin 2 Column Layout -----*/
+#bottomcontent {
+	background: #f0eadb url(../images/bottom_content_bg.jpg) repeat;
+	width: 1000px;
+	overflow: hidden;
+	-moz-box-shadow: 0 -5px 5px #3C3B39;
+	-webkit-box-shadow: 0 -5px 5px #3C3B39;
+	-o-box-shadow: 0 -5px 5px #3C3B39;
+	-ms-box-shadow: 0 -5px 5px #3C3B39;
+	padding-bottom: 20px;
+}
+
+#leftside {
+	width: 460px;
+	float: left;
+	padding: 20px;
+	clear: left;
+}
+
+#rightside {
+	width: 460px;
+	float: left;
+	padding: 20px 20px 0 20px;
+	text-align: right;
+}
+/*----- End 2 Column Layout -----*/
+
+/*----- Begin Link Styles -----*/
+a:link {
+	color: #AD5151;
+}
+
+a:visited {
+	color: #9E7E36;
+}
+
+a:hover {
+	color: #657A77;
+}
+/*----- End Link Styles -----*/
+
+/*----- Begin Heading Styling -----*/
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Poiret One', cursive;
+	color: #657A77;
+	font-weight: bolder;
+}
+
+h1 {
+	font-size: 1.714em;
+	-ms-text-shadow: 0 1px 0 #fff, 0 -1px 0 #000;
+	-o-text-shadow: 0 1px 0 #fff, 0 -1px 0 #000;
+	-webkit-text-shadow: 0 1px 0 #fff, 0 -1px 0 #000;
+	-moz-text-shadow: 0 1px 0 #fff, 0 -1px 0 #000;
+	text-shadow: 0 1px 0 #fff, 0 -1px 0 #000;
+}
+
+h2 {
+	font-size: 1.25em;
+}
+
+h3 {
+	font-size: 1em;
+}
+/*----- End Heading Styling -----*/
+
+/*----- Begin Table Properties -----*/
+table {
+	margin: 0;
+	padding: 0;
+	/*border: 1px solid #000;*/
+	width: 260px;
+}
+
+/*td {
+	border: 1px dashed #000;
+}*/
+
+th {
+	font-weight: normal;
+}
+
+#regprice {
+	color: #657A77;
+	width: 110px;
+}
+
+#savings {
+	color: #108f0d;
+	text-align: right;
+}
+
+#saleprice {
+	color: #B52E66;
+	font-weight: bold;
+	font-size: 1.387em;
+}
+/*----- End Table Properties -----*/
+
+/*----- Begin Order Button -----*/
+#orderbutton {
+  width: 250px;
+  padding: 10px 40px 10px 40px;
+  font-size: 22px;
+  text-decoration: none;
+  -moz-text-shadow: -1px -1px 2px #000;
+  -webkit-text-shadow: -1px -1px 2px #000;
+  -o-text-shadow: -1px -1px 2px #000;
+  -ms-text-shadow: -1px -1px 2px #000;
+  color: #fdf8ff;
+  background-color: #c86349;
+  border: 2px solid #a65241;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  line-height: 10.714em;
+  position: relative;
+  left: 42px;
+  bottom: 60px;
+ }
+
+#orderbutton:hover {
+	background-color: #3d3b39;
+	border: 2px solid #000;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+}
+
+#orderbutton:active {
+	background-color: #607366;
+}
+/*----- End Order Button -----*/
+
+/*----- Side Navigation Buttons -----*/
+#sidenav {
+	font-size: 1.571em;
+	width: 260px;
+	margin-top: 62px;
+}
+
+#sidenav ul {
+	margin: 0;
+	padding: 0;
+}
+
+#sidenav li {
+	list-style: none;
+}
+
+/*ul.default-style {
+	background-color: #3d3b39;
+}*/
+
+ul.default-style li {
+	border: 1px solid #000;
+	margin-bottom: 10px;
+	background-color: #3d3b39;
+	-moz-box-shadow: -5px 5px 5px #000;
+	-webkit-box-shadow: -5px 5px 5px #000;
+	-o-box-shadow: -5px 5px 5px #000;
+	-ms-box-shadow: -5px 5px 5px #000;
+}
+
+#sidenav a {
+	color: #fdf8ff;
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	text-indent: 10px;
+	text-decoration: none;
+	width: 100%;
+}
+
+#sidenav li:hover {
+	background-color: #c86349;
+	border: 1px solid #a65241;
+}
+
+#sidenav li:active {
+	background-color: #607366;
+	border: 1px solid #213629;
+}
+/*----- End Side Nav -----*/
+
+/*----- Back To Top Styling -----*/
+#totop {
+	float: right;
+	width: 80px;
+	margin-right: 20px;
+}
+
+#totop a {
+	color: #c86349;
+}
+
+#totop a:hover {
+	color: #FCFFF0;
+}
+
+footer {
+	background: #3d3b39 url(../images/footer.jpg) repeat-x;
+	-moz-box-shadow: 0 -5px 5px #000;
+	-webkit-box-shadow: 0 -5px 5px #000;
+	-o-box-shadow: 0 -5px 5px #000;
+	-ms-box-shadow: 0 -5px 5px #000;
+	padding: 20px 0 20px 20px;
+	color: #fdf8ff;
+	clear: both;
+}
