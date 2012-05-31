@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Headcam Product Review</title>
+		<link>index.html</link
+		<description>We review the two major head cam manufacturers, GoPro and Contour.</description>
+
+		<item>
+			<title>GoPro</title>
+			<link>index.html</link>
+			<description>GoPro produces arguably the most versatile cameras in the world, the famous HD HERO® line of wearable and gear-mountable cameras and accessories.</description>
+		</item>
+
+		<item>
+			<title>Contour</title>
+			<link>index.html</link>
+			<description>Contour, formerly known as VholdR, is the market leader in hands-free video cameras and adventure storytelling tools that enable modern day explorers to tell their stories of action, adventure and travel through video.</description>
+		</item>
+	</channel>
+</rss>
